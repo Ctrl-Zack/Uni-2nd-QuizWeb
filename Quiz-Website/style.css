@@ -223,7 +223,7 @@ body{
 /*Css for container (quiz-section)*/
 .quiz-section {
     position: relative;
-    left: -50%;
+    left: -100%;
     width: 100%;
     background: #09001d;
     display: flex;
