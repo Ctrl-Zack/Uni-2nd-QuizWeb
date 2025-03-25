@@ -13,21 +13,16 @@
 body{
     color: #fff;
     background: #09001d;
-    /* overflow: hidden; */
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: hidden;
 }
-
 .main{
-    width: 100%;
     min-height: 100vh;
-    background: url('./Assets/background2.jpg') no-repeat;
+    background: url('/Assets/background2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     pointer-events: auto;
     transition: 2s ease;
 }
-
 .main.active{
     filter: blur(10px);
     pointer-events: none;
@@ -48,7 +43,7 @@ body{
 }
 
 .logo{
-    font-size:3vw;
+    font-size: 32px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
@@ -74,23 +69,7 @@ body{
 .container{
     display: flex;
     height: 100vh;
-    width: 100%;
-}
-
-.home{
-    position: relative;
-    left: -50%;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-content{
-    max-width: 600px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    width: 200%;
 }
 
 .iframe-container {
@@ -106,8 +85,25 @@ body{
     height: 100%
 }
 
+.home{
+    position: relative;
+    left: -50%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .home-content h1{
-    font-size:32px;
+    font-size: 78px;
     font-weight: 700;
     text-shadow: 0 0 1px rgba(0, 0, 0, .3);
 }
